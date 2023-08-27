@@ -1,6 +1,7 @@
 {
     "license": "restricted",
     "identifier": "DanisWarMachine",
+    "$krev": "#/ckan/github/q-dani/warmachine",
     "$vref": "#/ckan/ksp-avc/GameData/DanisWarMachine/Versioning/DanisWarMachine.version",
     "spec_version": "v1.4",
     "name"                : "Dani's War Machine",
@@ -15,7 +16,7 @@
         { "name" : "DeployableEngines" },
         { "name" : "CommunityResourcePack" },
         { "name" : "KerbalActuators"},
-        { "name" : "KerbalAtomics"},
+        { "name" : "KerbalAtomics"}
                 ],
     "recommends" : [
         {"name" : "CommunityTechTree" },
