@@ -1,0 +1,30 @@
+{
+    "license": "restricted",
+    "identifier": "DanisWarMachine",
+    "$vref": "#/ckan/ksp-avc/GameData/DanisWarMachine/Versioning/DanisWarMachine.version",
+    "spec_version": "v1.4",
+    "name"                : "Dani's War Machine",
+    "abstract"            : "Mashup of over-powered parts from MK2Expansion, KerbalAtomics, and NearFutureAeronatics for having fun with BDArmory",
+    "author"              : "Dani",
+    "resources": {
+      "repository": "https://github.com/q-dani/warmachine"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "B9PartSwitch" },
+        { "name" : "DeployableEngines" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "KerbalActuators"},
+        { "name" : "KerbalAtomics"},
+                ],
+    "recommends" : [
+        {"name" : "CommunityTechTree" },
+        {"name" : "MarkIVSpaceplaneSystem"} ],
+        { "name" : "Mk2Expansion"},
+        { "name" : "NearFutureAeronautics"}
+    "install" : [
+        { "find" : "DanisWarMachine",
+          "install_to" : "GameData" }
+
+                ]
+}
