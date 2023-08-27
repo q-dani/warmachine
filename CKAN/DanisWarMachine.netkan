@@ -7,10 +7,12 @@ author:
   - Dani
 license: restricted
 version: 0.0.1
-$kref: '#/ckan/github/q-dani/warmachine'
 release_status: development
 resources:
   repository: https://github.com/q-dani/warmachine
+download: https://github.com/q-dani/warmachine/archive/refs/heads/main.zip
+tags:
+  - parts
 install:
   - file: DanisWarMachine
     install_to: GameData
